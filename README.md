@@ -1,6 +1,6 @@
 # WordPress Starter Theme
 
-This theme has been designed and coded by [Online Clarity](http://onlineclarity.ca) to use for as a Wordpress Starter Theme
+This theme has been designed and coded by [Online Clarity](http://onlineclarity.ca) to use as a Wordpress Starter Theme
 
 ### Requirements
 
