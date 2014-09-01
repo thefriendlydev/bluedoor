@@ -1,6 +1,6 @@
-# RogersHometownHockeyTheme
+# WordPress Starter Theme
 
-This theme has been designed and coded by [Online Clarity](http://onlineclarity.ca) to use for [Bluedoor Inc](http://bluedoorinc.com) main website.
+This theme has been designed and coded by [Online Clarity](http://onlineclarity.ca) to use for as a Wordpress Starter Theme
 
 ### Requirements
 
@@ -13,7 +13,7 @@ This theme has been designed and coded by [Online Clarity](http://onlineclarity.
 ### Installation (Developers)
 
 * `cd /wordpress/wp-content`
-* `git clone git@github.com:twg/rogers-hth-theme.git`
+* `git clone git@github.com:milleronrails/wordpress-starter.git`
 * Required plugins have been included in the repo
 
 ### Development
