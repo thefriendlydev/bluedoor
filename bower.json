@@ -1,0 +1,23 @@
+{
+  "name": "BluedoorTheme",
+  "version": "1.0.0",
+  "homepage": "",
+  "authors": [
+    "Matt Miller"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.1.1",
+    "csswizardry-grids": "~2.2.0",
+    "jquery": "~2.1.1"
+  }
+}

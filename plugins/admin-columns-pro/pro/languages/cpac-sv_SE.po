@@ -1,0 +1,499 @@
+#
+# Translators:
+# Fredrik Andersson <fidde.andersson@telia.com>, 2013
+# Fredrik Andersson <fidde.andersson@telia.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Columns Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-22 16:32+0100\n"
+"PO-Revision-Date: 2014-06-25 16:44+0100\n"
+"Last-Translator: Codepress <info@codepress.nl>\n"
+"Language-Team: Swedish (Sweden) (http://www.transifex.com/projects/p/admin-"
+"columns-pro/language/sv_SE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../cac-addon-pro.php:108 ../classes/licence-manager-settings.php:263
+msgid "Settings"
+msgstr "Inställningar"
+
+#: ../cac-addon-pro.php:118
+msgid "Pro add-on"
+msgstr "Pro tillägg"
+
+#: ../classes/api.php:152
+msgid "Empty response from API."
+msgstr "Ingen respons från API."
+
+#: ../classes/export-import/classes/export_import.php:43
+#: ../classes/export-import/classes/export_import.php:333
+msgid "Export field is empty. Please select your types from the left column."
+msgstr ""
+"Exportfältet är tomt. Vänligen markera dina typer från den vänstra kolumnen."
+
+#: ../classes/export-import/classes/export_import.php:72
+msgid "Export/Import"
+msgstr "Exportera/Importera"
+
+#: ../classes/export-import/classes/export_import.php:89
+msgid "Results"
+msgstr "Resultat"
+
+#: ../classes/export-import/classes/export_import.php:90
+#: ../classes/export-import/classes/export_import.php:183
+msgid "Instructions"
+msgstr "Instruktioner"
+
+#: ../classes/export-import/classes/export_import.php:92
+msgid "Using the PHP export"
+msgstr "Använd PHP export"
+
+#: ../classes/export-import/classes/export_import.php:94
+#: ../classes/export-import/classes/export_import.php:169
+msgid "Copy the generated PHP code in the right column"
+msgstr "Kopiera genererad PHP kod i den högra kolumnen"
+
+#: ../classes/export-import/classes/export_import.php:95
+#: ../classes/export-import/classes/export_import.php:170
+msgid ""
+"Insert the code in your themes functions.php or in your plugin (on the init "
+"action)"
+msgstr ""
+"Infoga koden i ditt temas functions.php eller i ditt plugin (på init action)"
+
+#: ../classes/export-import/classes/export_import.php:96
+#: ../classes/export-import/classes/export_import.php:171
+msgid ""
+"Your columns settings are now loaded from your PHP code instead of from your "
+"column settings!"
+msgstr ""
+"Dina kolumners inställningar laddas nu från din PHP kod instället för från "
+"dina kolumninställningar!"
+
+#: ../classes/export-import/classes/export_import.php:109
+msgid "Columns"
+msgstr "Kolumner"
+
+#: ../classes/export-import/classes/export_import.php:110
+msgid "Select the columns to be exported."
+msgstr "Välj de kolumner som ska exporteras."
+
+#: ../classes/export-import/classes/export_import.php:121
+msgid "General"
+msgstr "Allmänt"
+
+#: ../classes/export-import/classes/export_import.php:122
+msgid "Posts"
+msgstr "Inlägg"
+
+#: ../classes/export-import/classes/export_import.php:133
+msgid "select all"
+msgstr "välj alla"
+
+#: ../classes/export-import/classes/export_import.php:135
+msgid "Export PHP"
+msgstr "Exportera PHP"
+
+#: ../classes/export-import/classes/export_import.php:136
+#: ../classes/export-import/classes/export_import.php:151
+msgid "Export to text"
+msgstr "Exportera till text"
+
+#: ../classes/export-import/classes/export_import.php:140
+msgid "No stored column settings are found."
+msgstr "Inga sparade kolumninställningar hittades."
+
+#: ../classes/export-import/classes/export_import.php:152
+msgid ""
+"Admin Columns will export to a format compatible with the Admin Columns "
+"import functionality."
+msgstr ""
+"Admin Columns kommer att exportera till ett format som är kompatibelt med "
+"Admin Columns import funktionalitet."
+
+#: ../classes/export-import/classes/export_import.php:154
+#: ../classes/export-import/classes/export_import.php:167
+msgid "Select the columns you which to export from the list in the left column"
+msgstr ""
+"Välj de kolumner som du vill exportera från listan i den vänstra kolumnen"
+
+#: ../classes/export-import/classes/export_import.php:155
+msgid "Click the &quot;Export to text&quot; button"
+msgstr "Klicka på &quot;Export till text&quot; knappen"
+
+#: ../classes/export-import/classes/export_import.php:156
+msgid "Save the .txt-file when prompted"
+msgstr "Spara .txt-filen när du uppmanas"
+
+#: ../classes/export-import/classes/export_import.php:157
+msgid "Go to the Admin Columns import/export page in your other installation"
+msgstr "Gå till Admin Columns import/export sida i din andra installation"
+
+#: ../classes/export-import/classes/export_import.php:158
+msgid "Select the export .txt-file"
+msgstr "Välj export .txt-fil"
+
+#: ../classes/export-import/classes/export_import.php:159
+msgid "Click the &quot;Start import&quot; button"
+msgstr "Klicka på &quot;Starta import&quto; knappen"
+
+#: ../classes/export-import/classes/export_import.php:160
+msgid "Poof!"
+msgstr "Poof!"
+
+#: ../classes/export-import/classes/export_import.php:164
+msgid "Export to PHP"
+msgstr "Exportera till PHP"
+
+#: ../classes/export-import/classes/export_import.php:165
+msgid ""
+"Admin Columns will export PHP code you can directly insert in your plugin or "
+"theme."
+msgstr ""
+"Admin Columns kommer att exportera PHP-kod som du kan direkt infoga i ditt "
+"tillägg eller tema."
+
+#: ../classes/export-import/classes/export_import.php:168
+msgid "Click the &quot;Export to PHP&quot; button"
+msgstr "Klicka på &quot;Export till PHP&quot; knappen"
+
+#: ../classes/export-import/classes/export_import.php:181
+msgid "Import"
+msgstr "Importera"
+
+#: ../classes/export-import/classes/export_import.php:182
+msgid "Copy and paste your import settings here."
+msgstr "Kopiera och klistra in dina importerade inställningar här."
+
+#: ../classes/export-import/classes/export_import.php:185
+msgid "Import Columns Types"
+msgstr "Importera Kolumn Typer"
+
+#: ../classes/export-import/classes/export_import.php:187
+msgid "Choose a Admin Columns Export file to upload."
+msgstr "Välj en Admin Columns export fil för att ladda upp."
+
+#: ../classes/export-import/classes/export_import.php:188
+msgid "Click upload file and import."
+msgstr "Klicka på ladda upp fil och importera."
+
+#: ../classes/export-import/classes/export_import.php:189
+msgid "That's it! You imported settings are now active."
+msgstr "Det är allt! Du har importerat inställningarna som nu är aktivt."
+
+#: ../classes/export-import/classes/export_import.php:198
+msgid "Upload file and import"
+msgstr "Ladda upp fil och importera"
+
+#: ../classes/export-import/classes/export_import.php:366
+#: ../classes/export-import/classes/export_import.php:368
+msgid "Sorry, there has been an error."
+msgstr "Tyvärr, det har uppstått ett fel."
+
+#: ../classes/export-import/classes/export_import.php:368
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Exportfilen kunde inte hittas på <code>%s</ code>. Det är troligt att detta "
+"orsakades av en behörighetsproblem."
+
+#: ../classes/export-import/classes/export_import.php:386
+msgid "Import failed. File does not contain Admin Column settings."
+msgstr ""
+"Importering misslyckades. Filen innehåller inte Admin Column inställningar."
+
+#: ../classes/export-import/classes/export_import.php:395
+#, php-format
+msgid "Screen %s does not exist."
+msgstr "Skärmen %s existerar inte."
+
+#: ../classes/filtering/classes/model.php:123
+#, php-format
+msgid "All %s"
+msgstr "Alla %s"
+
+#: ../classes/filtering/classes/model.php:125
+msgid "Empty"
+msgstr "Tomt"
+
+#: ../classes/filtering/classes/model.php:126
+msgid "Not empty"
+msgstr "Inte tomt"
+
+#: ../classes/filtering/filtering.php:87
+msgid "Enable filtering?"
+msgstr "Aktivera filtrering?"
+
+#: ../classes/filtering/filtering.php:87
+msgid "This will make the column support filtering."
+msgstr "Detta kommer att göra kolumner stödjer filtrering."
+
+#: ../classes/filtering/filtering.php:91
+#: ../classes/inline-edit/cac-addon-inline-edit.php:255
+#: ../classes/sortable/sortable.php:131
+msgid "Yes"
+msgstr "Ja"
+
+#: ../classes/filtering/filtering.php:95
+#: ../classes/inline-edit/cac-addon-inline-edit.php:259
+#: ../classes/sortable/sortable.php:135
+msgid "No"
+msgstr "Nej"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:163
+msgid "Select author"
+msgstr "Välj författare"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:164
+msgid "Edit"
+msgstr "Redigera"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:165
+msgid "Redo"
+msgstr "Gör om"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:166
+msgid "Undo"
+msgstr "Ångra"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:167
+msgid "Delete"
+msgstr "Ta bort"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:168
+msgid "Download"
+msgstr "Ladda ner"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:170
+msgid "This field is required."
+msgstr "Detta fält är obligatoriskt."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:251
+msgid "Enable editing?"
+msgstr "Aktivera redigering?"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:251
+msgid "This will make the column support inline editing."
+msgstr "Detta kommer att göra så kolumner stödjer snabbredigering."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:289
+msgid "Date save format"
+msgstr "Datumformatet som den lagras"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:290
+msgid ""
+"Fill in the date format as it is stored. This is used to accurately "
+"determine the date."
+msgstr ""
+"Fyll i datumformatet som den lagras. Detta används för att noggrant "
+"fastställa datumet."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:299
+msgid "Fill in a date save format"
+msgstr "Fyll i datumformatet som den lagras"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:301
+#, php-format
+msgid "Defaults to: %s."
+msgstr "Standard till: %s."
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:302
+msgid "See all available formats"
+msgstr "Se alla tillgängliga format"
+
+#: ../classes/inline-edit/cac-addon-inline-edit.php:339
+#, php-format
+msgid ""
+"The Inline Edit add-on is enabled but not effective. It requires %s in order "
+"to work."
+msgstr ""
+"Snabbredigering tillägget är aktiverat men inte verkningsfullt. Det kräver "
+"%s för att fungera."
+
+#: ../classes/inline-edit/classes/model.php:437
+msgid "None"
+msgstr "Inget"
+
+#: ../classes/inline-edit/classes/model.php:442
+msgid "- Select -"
+msgstr "- Välj -"
+
+#: ../classes/inline-edit/classes/post.php:105
+msgid "Default Template"
+msgstr "Standardmall"
+
+#: ../classes/inline-edit/classes/post.php:210
+msgid "Excerpt automatically generated from content."
+msgstr "Utdrag genererade automatiskt från innehållet."
+
+#: ../classes/inline-edit/classes/post.php:374
+msgid ", "
+msgstr ","
+
+#: ../classes/inline-edit/classes/post.php:414
+msgid "Unpublished"
+msgstr "Opublicerad"
+
+#: ../classes/inline-edit/classes/post.php:417
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: ../classes/inline-edit/classes/post.php:424
+#, php-format
+msgid "%s ago"
+msgstr "%s sedan"
+
+#: ../classes/inline-edit/classes/post.php:426
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: ../classes/inline-edit/classes/post.php:436
+msgid "Published"
+msgstr "Publicerat"
+
+#: ../classes/inline-edit/classes/post.php:439
+msgid "Missed schedule"
+msgstr "Missat schemaläggning"
+
+#: ../classes/inline-edit/classes/post.php:441
+msgid "Scheduled"
+msgstr "Schemalagt"
+
+#: ../classes/inline-edit/classes/post.php:443
+msgid "Last Modified"
+msgstr "Senast ändrat"
+
+#: ../classes/licence-manager-settings.php:55
+#, php-format
+msgid ""
+"Licence not active. Enter your licence key under the <a href='%s'>Settings "
+"tab</a>."
+msgstr ""
+"Licens är inte aktiv. Fyll i din licensnyckel under <a href='%s'>fliken "
+"inställningar</a>."
+
+#: ../classes/licence-manager-settings.php:137
+msgid "Empty licence."
+msgstr "Ingen licens."
+
+#: ../classes/licence-manager-settings.php:150
+#: ../classes/licence-manager-settings.php:166
+msgid "Wrong response from API."
+msgstr "Felaktig respons från API."
+
+#: ../classes/licence-manager-settings.php:184
+msgid "Add-ons updates"
+msgstr "Tillägg uppdateringar"
+
+#: ../classes/licence-manager-settings.php:185
+#: ../classes/licence-manager-settings.php:234
+msgid "Enter your licence code to receive automatic updates."
+msgstr "Fyll i din licensnyckel för att få automatiska uppdateringar."
+
+#: ../classes/licence-manager-settings.php:223
+msgid "Automatic updates are enabled."
+msgstr "Automatiska uppdateringar är aktiverade."
+
+#: ../classes/licence-manager-settings.php:224
+msgid "Deactivate licence"
+msgstr "Inaktivera licens"
+
+#: ../classes/licence-manager-settings.php:231
+msgid "Enter your licence code"
+msgstr "Fyll i din licensnyckel"
+
+#: ../classes/licence-manager-settings.php:232
+msgid "Update licence"
+msgstr "Uppdatera licensen"
+
+#: ../classes/licence-manager-settings.php:235
+#, php-format
+msgid "You can find your license key on your %s."
+msgstr "Du kan hitta licensnyckel på din %s."
+
+#: ../classes/licence-manager-settings.php:235
+msgid "account page"
+msgstr "kontosida"
+
+#: ../classes/licence-manager-settings.php:259
+msgid "To finish activating Admin Columns Pro, please "
+msgstr "För att slutföra aktivera av Admin Columns Pro, vänligen"
+
+#: ../classes/licence-manager-settings.php:261
+msgid "To update, "
+msgstr "Till uppdatera,"
+
+#: ../classes/licence-manager-settings.php:263
+#, php-format
+msgid ""
+"go to %s and enter your licence key. If you don't have a licence key, you "
+"may <a href=\"%s\" target=\"_blank\">purchase one</a>."
+msgstr ""
+"gå till %s och fyll i din licensnyckel. Om du inte har en licensnyckel, kan "
+"du <a href=\"%s\" target=\"_blank\">köpa en</a>."
+
+#: ../classes/licence-manager-settings.php:298
+#, php-format
+msgid ""
+"To enable updates for this product, please <a href='%s'>activate your "
+"license</a>."
+msgstr ""
+"För att erhålla uppdateringar för denna produkt, vänligen <a "
+"href='%s'>aktivera din licensnyckel</a>."
+
+#: ../classes/sortable/classes/model.php:78
+#, php-format
+msgid " by %s"
+msgstr "av %s"
+
+#: ../classes/sortable/classes/model.php:82
+msgid "Reset sorting preference"
+msgstr "Återställ sorteringsinställning"
+
+#: ../classes/sortable/classes/model.php:115
+msgid "Reset sorting"
+msgstr "Återställ sortering"
+
+#: ../classes/sortable/classes/model.php:165
+msgid "sorting preference succesfully reset."
+msgstr "sorteringsinställning återställdes framgångsrikt"
+
+#: ../classes/sortable/sortable.php:66
+msgid "Show all results when sorting. Default is <code>off</code>."
+msgstr "Visa alla resultat vid sortering. Standard är <code>av</code>."
+
+#: ../classes/sortable/sortable.php:78
+msgid "Sortable add-on"
+msgstr "Sorterbart tillägg"
+
+#: ../classes/sortable/sortable.php:127
+msgid "Enable sorting?"
+msgstr "Aktivera sortering?"
+
+#: ../classes/sortable/sortable.php:127
+msgid "This will make the column support sorting."
+msgstr "Detta kommer att göra så kolumnen stödjer sortering."
+
+#: ../classes/sortable/sortable.php:155
+msgid "sort"
+msgstr "sortera"
+
+#: ../classes/taxonomy/column/ID.php:12
+msgid "ID"
+msgstr "ID"
+
+#: ../classes/taxonomy/column/excerpt.php:13
+msgid "Excerpt"
+msgstr "Utdrag"
