@@ -11,13 +11,18 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Fonts -->
+    <script type="text/javascript" src="http://fast.fonts.net/jsapi/634c791f-82a5-42b6-880d-9be75f9fc8d1.js"></script>
+
+    <!-- Compiled CSS -->
     <link href="<?php bloginfo('template_url'); ?>/dist/css/vendor.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/dist/css/application.css" rel="stylesheet">
+
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <?php wp_head(); ?>
   </head>
-    <body <?php body_class(); ?> ng-app='hth'>
+    <body <?php body_class(); ?>>
 
       <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>

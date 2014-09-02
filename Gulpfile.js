@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),
+    stylus = require('gulp-stylus'),
     livereload = require('gulp-livereload'),
     tinylr = require('tiny-lr'),
     autoprefixer = require('gulp-autoprefixer'),
@@ -22,16 +22,26 @@ var bowerCssDependencies = [
   './vendor/css-wizardry-grids/css-wizardry-grids.scss'
 ];
 
-//-- Compile SCSS -----------------------------------------------------------
-gulp.task('styles', function() {
-  return gulp.src('./assets/scss/**/*.scss')
-    .pipe(sass({style: 'expand', errLogToConsole: true}))
+// animate.css
+// integrate animate.css
+gulp.task('animate', function() {
+  gulp.src('./vendor/animate.css/animate.css')
+    .pipe(rename('_animate.styl'))
+    .pipe(gulp.dest('./src/styl/initializers/'))
+})
+
+// STYL => CSS
+// concatenate and compress stylus files and output to dist/css
+var cssPaths = [
+  './src/styl/application.styl'
+]
+gulp.task('styl', function() {
+  gulp.src(cssPaths)
+    .pipe(stylus({errors: false}))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
-    .pipe(gulp.dest('./dist/css'))
-    .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
-    .pipe(gulp.dest('./dist/css'));
-});
+    .pipe(gulp.dest('./dist/css/'))
+})
 
 
 //-- Compile Javascripts ----------------------------------------------------
@@ -80,13 +90,6 @@ gulp.task('images', function() {
 });
 
 
-//-- Copy Fonts to the Dist Directory ---------------------------------------
-gulp.task('fonts', function() {
-  return gulp.src('./vendor/font-awesome/fonts/**/*.*')
-    .pipe(gulp.dest('./dist/fonts'));
-});
-
-
 //-- Clean task to run before deploys ---------------------------------------
 gulp.task('clean', function() {
   return gulp.src(['./dist/assets/css', './dist/assets/js'], {read: false})
@@ -96,14 +99,14 @@ gulp.task('clean', function() {
 
 //-- Default Task -----------------------------------------------------------
 gulp.task('default', function() {
-  gulp.start('styles', 'scripts', 'vendor-css', 'vendor-js', 'images', 'fonts', 'watch');
+  gulp.start('styl', 'scripts', 'vendor-css', 'vendor-js', 'images', 'animate', 'watch');
 });
 
 
 //-- Watching & Livereload --------------------------------------------------
 gulp.task('watch', function() {
 
-  gulp.watch('./assets/scss/**/*.scss', ['styles']);
+  gulp.watch('./assets/styl/**/*.styl', ['styl']);
   gulp.watch('./assets/js/**/*.js', ['scripts']);
   gulp.watch('./assets/img/**/*', ['images']);
 
