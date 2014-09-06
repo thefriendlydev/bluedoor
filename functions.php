@@ -16,7 +16,6 @@ include_once 'plugins/admin-columns-pro/admin-columns-pro.php';
 
 
 //-- Helpers --------------------------------------------------------------
-
+require_once 'includes/helpers/home.php';
 
 //-- Static Pages ---------------------------------------------------------
-require_once 'includes/static_pages/front_page.php';

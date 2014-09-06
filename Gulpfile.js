@@ -16,6 +16,7 @@ var gulp = require('gulp'),
 //-- Bower Dependencies -----------------------------------------------------
 var bowerJsDependencies = [
   './vendor/jquery/dist/jquery.js',
+  './vendor/wowjs/dist/wow.min.js'
 ];
 var bowerCssDependencies = [
   './vendor/animate.css/animate.css',
@@ -27,13 +28,13 @@ var bowerCssDependencies = [
 gulp.task('animate', function() {
   gulp.src('./vendor/animate.css/animate.css')
     .pipe(rename('_animate.styl'))
-    .pipe(gulp.dest('./src/styl/initializers/'))
+    .pipe(gulp.dest('./assets/styl/initializers/'))
 })
 
 // STYL => CSS
 // concatenate and compress stylus files and output to dist/css
 var cssPaths = [
-  './src/styl/application.styl'
+  './assets/styl/application.styl'
 ]
 gulp.task('styl', function() {
   gulp.src(cssPaths)

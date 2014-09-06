@@ -27,7 +27,8 @@
       <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
+      <div class='primary-nav'>
+        <img src="<?= HomeHelpers::logo(); ?>">
+        <span><?= HomeHelpers::nav_tagline(); ?></span>
+      </div>
 
-      <ul>
-        <li><a href="/">Home</a></li>
-      </ul>
