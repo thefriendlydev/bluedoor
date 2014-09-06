@@ -6,11 +6,6 @@ class HomeHelpers {
     return $nav_tagline;
   }
 
-  public static function logo() {
-    $logo = the_field("logo");
-    return $logo;
-  }
-
   public static function hero_background() {
     $hero_background = the_field("hero_background");
     return $hero_background;

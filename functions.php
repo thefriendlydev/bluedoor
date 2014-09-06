@@ -4,6 +4,8 @@
 include_once 'plugins/advanced-custom-fields/acf.php';
 include_once 'plugins/acf-repeater/acf-repeater.php';
 include_once 'plugins/admin-columns-pro/admin-columns-pro.php';
+include_once 'plugins/wp-stage-switcher/wp-stage-switcher.php';
+
 
 
 //-- Utils ----------------------------------------------------------------

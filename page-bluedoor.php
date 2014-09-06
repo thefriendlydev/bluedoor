@@ -16,8 +16,12 @@
 <?php get_header(); ?>
 
   <?php if(have_posts()): while(have_posts()): the_post(); ?>
-    <div class="section">
-      <div class="bg-image" style="background-image: url(<?= HomeHelpers::hero_background(); ?>)"></div>
+    <div class="section hero event-page">
+      <div class="bg-image" style="background-image: url(<?= HomeHelpers::hero_background(); ?>)">
+        <div class="container">
+        </div>
+      </div>
     </div>
-    <?php the_content(); ?>
   <?php endwhile; endif; ?>
+
+<?php get_footer(); ?>
