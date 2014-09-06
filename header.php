@@ -11,14 +11,13 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Fonts -->
-    <script type="text/javascript" src="http://fast.fonts.net/jsapi/634c791f-82a5-42b6-880d-9be75f9fc8d1.js"></script>
-
-    <!-- Compiled CSS -->
     <link href="<?php bloginfo('template_url'); ?>/dist/css/vendor.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/dist/css/application.css" rel="stylesheet">
-
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Typekit Fonts -->
+    <script type="text/javascript" src="//use.typekit.net/giy3kov.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
     <?php wp_head(); ?>
   </head>

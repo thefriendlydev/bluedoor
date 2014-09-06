@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     stylus = require('gulp-stylus'),
+    sass = require('gulp-sass'),
     livereload = require('gulp-livereload'),
     tinylr = require('tiny-lr'),
     autoprefixer = require('gulp-autoprefixer'),
@@ -20,16 +21,8 @@ var bowerJsDependencies = [
 ];
 var bowerCssDependencies = [
   './vendor/animate.css/animate.css',
-  './vendor/css-wizardry-grids/css-wizardry-grids.scss'
+  './vendor/csswizardry-grids/csswizardry-grids.scss'
 ];
-
-// animate.css
-// integrate animate.css
-gulp.task('animate', function() {
-  gulp.src('./vendor/animate.css/animate.css')
-    .pipe(rename('_animate.styl'))
-    .pipe(gulp.dest('./assets/styl/initializers/'))
-})
 
 // STYL => CSS
 // concatenate and compress stylus files and output to dist/css
@@ -76,6 +69,7 @@ gulp.task('vendor-js', function() {
 //-- Merge and Minify Bower CSS Dependencies --------------------------------
 gulp.task('vendor-css', function() {
   return gulp.src(bowerCssDependencies)
+    .pipe(sass({style: 'expand', errLogToConsole: true}))
     .pipe(concat('vendor.css'))
     .pipe(gulp.dest('./dist/css'))
     .pipe(rename({suffix: '.min'}))
@@ -100,7 +94,7 @@ gulp.task('clean', function() {
 
 //-- Default Task -----------------------------------------------------------
 gulp.task('default', function() {
-  gulp.start('styl', 'scripts', 'vendor-css', 'vendor-js', 'images', 'animate', 'watch');
+  gulp.start('styl', 'scripts', 'vendor-css', 'vendor-js', 'images', 'watch');
 });
 
 
@@ -110,6 +104,7 @@ gulp.task('watch', function() {
   gulp.watch('./assets/styl/**/*.styl', ['styl']);
   gulp.watch('./assets/js/**/*.js', ['scripts']);
   gulp.watch('./assets/img/**/*', ['images']);
+  gulp.watch(bowerCssDependencies, ['vendor-css']);
 
   livereload.listen();
   gulp.watch(['./dist/**', './**/*.php']).on('change', livereload.changed);

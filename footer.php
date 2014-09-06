@@ -5,6 +5,6 @@
 
     <script src="<?php bloginfo('template_url'); ?>/dist/js/vendor.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/dist/js/application.js"></script>
-
+    <?php get_footer(); ?>
   </body>
 </html>
