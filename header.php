@@ -27,7 +27,7 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
       <div class='primary-nav'>
-        <img src="<?php bloginfo('template_directory'); ?>/dist/img/logo.png">
+        <img class="logo" src="<?php bloginfo('template_directory'); ?>/dist/img/logo.png">
         <span><?= HomeHelpers::nav_tagline(); ?></span>
       </div>
 

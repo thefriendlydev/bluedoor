@@ -19,6 +19,14 @@
     <div class="section hero event-page">
       <div class="bg-image" style="background-image: url(<?= HomeHelpers::hero_background(); ?>)">
         <div class="container">
+          <div class="grid">
+            <div class="grid__item one-half lap--two-fifths palm--one-whole">
+
+            </div>
+            <div class="grid__item one-half lap--three-fifths palm--one-whole">
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
