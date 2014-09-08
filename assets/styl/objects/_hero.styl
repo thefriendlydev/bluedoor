@@ -1,0 +1,71 @@
+.hero
+  color: #FFFFFF
+  position: relative
+  min-height: 650px
+  .grid
+    padding-top: 130px
+    @media palmBreakpoint
+      padding-top: 80px
+  .grid__item
+    vertical-align: middle
+
+  h1
+    margin-bottom: 40px
+    max-width: 415px
+    @media palmBreakpoint
+      margin-bottom: 20px
+
+  .hero-regular, .hero-small
+    max-width: 430px
+    font-family: museo-sans
+    line-height: 150%
+    @media palmBreakpoint
+      margin-bottom: 20px
+
+  .hero-regular
+    font-size: 22px
+    font-weight: 100
+    margin-bottom: 30px
+    @media palmBreakpoint
+      font-size: 18px
+
+  .hero-small
+    font-size: 18px
+    font-weight: 500
+    @media palmBreakpoint
+      font-size: 16px
+
+  .hero-form
+    padding: 40px 30px
+    background-color: #FFFFFF
+    round-corners(5px)
+    max-width: 300px
+    position: relative
+    @media lapBreakpoint
+      max-width: 270px
+    @media palmBreakpoint
+      padding: 40px 15px
+      text-align: center
+    p
+      margin: 0
+
+  .hero-form-main-tagline
+    font-family: museo-sans
+    font-size: 20px
+    font-weight: 500
+    color: formGrey
+    text-transform: uppercase
+    max-width: 200px
+    margin-bottom: 20px
+    @media palmBreakpoint
+      max-width: none
+      text-align: center
+
+  .hero-form-sub-tagline
+    font-family: museo-sans
+    font-size: 22px
+    font-weight: 100
+    color: formGrey
+    margin-bottom: 20px
+    @media palmBreakpoint
+      font-size: 18px

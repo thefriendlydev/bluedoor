@@ -1,0 +1,43 @@
+input
+  box-sizing: border-box
+  -webkit-appearance: none
+  border: 1px solid formGrey
+  background: #FFFFFF
+  font-size: 16px
+  font-weight: 300
+  font-family: museo-sans
+  padding: 13px 17px
+  width: 100%
+  border-radius: 0
+  transition: all 0.2s ease-in-out
+  margin: 0
+  margin-bottom: 15px
+  round-corners(5px)
+
+  &:focus, &:active
+    outline: 0
+    border-color: bdBlue
+
+
+// Contact Form 7 Overrides
+.wpcf7-form-control-wrap
+  width: 100%
+
+.wpcf7-not-valid-tip
+  margin-top: -8px
+
+.wpcf7-submit
+  margin-bottom: 0
+
+.wpcf7-validation-errors
+  border: 2px solid #f00 !important
+  color: formGrey
+  round-corners(5px)
+  margin: 0 !important
+  text-align: center
+  font-size: 18px
+  font-weight: 300
+  font-family: museo-sans
+
+.ajax-loader
+  display: none

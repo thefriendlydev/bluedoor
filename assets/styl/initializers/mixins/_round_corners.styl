@@ -1,0 +1,50 @@
+default_rounded_amount = 5px
+// Round corner at position by amount.
+round-corner(position, amount = default_rounded_amount)
+  border-{position}-radius: amount !important
+  -webkit-border-{position}-radius: amount !important
+
+round-corner-mozilla(position, amount = default_rounded_amount)
+  -moz-border-radius-{position}: amount !important
+
+// Round left corners by amount
+round-left-corners(amount = default_rounded_amount)
+  @extend round-corner('top-left', amount)
+  @extend round-corner('bottom-left', amount)
+  @extend round-corner-mozilla('topleft', amount)
+  @extend round-corner-mozilla('bottomleft', amount)
+
+// Round right corners by amount
+round-right-corners(amount = default_rounded_amount)
+  @extend round-corner('top-right', amount)
+  @extend round-corner('bottom-right', amount)
+  @extend round-corner-mozilla('topright', amount)
+  @extend round-corner-mozilla('bottomright', amount)
+
+// Round top corners by amount
+round-top-corners(amount = 5px)
+  @extend round-corner('top-left', amount)
+  @extend round-corner('top-right', amount)
+  @extend round-corner-mozilla('topleft', amount)
+  @extend round-corner-mozilla('topright', amount)
+
+// Round bottom corners by amount
+round-bottom-corners(amount = default_rounded_amount)
+  @extend round-corner('bottom-left', amount)
+  @extend round-corner('bottom-right', amount)
+  @extend round-corner-mozilla('bottomleft', amount)
+  @extend round-corner-mozilla('bottomright', amount)
+
+round-corners-no-br(amount = default_rounded_amount)
+  @extend round-corner('bottom-left', amount)
+  @extend round-corner-mozilla('bottomleft', amount)
+  @extend round-corner('top-left', amount)
+  @extend round-corner-mozilla('topleft', amount)
+  @extend round-corner('top-right', amount)
+  @extend round-corner-mozilla('topright', amount)
+
+// Round all corners by amount
+round-corners(amount = default_rounded_amount)
+  border-radius: amount !important
+  -moz-border-radius: amount !important
+  -webkit-border-radius: amount !important
