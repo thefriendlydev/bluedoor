@@ -6,6 +6,21 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
   border-top: 6px solid bdBlue
   max-width: 300px
+  text-align: center
+  margin-bottom: 95px
+  p
+    text-align: left
+    margin-bottom: 22px
+  .button
+    background-color: #FFF
+    color: bdOrange
+    text-transform: uppercase
+    display: inline-block
+    border: 2px solid bdOrange
+    padding: 8px 25px
+    &:hover
+      background-color: bdOrange
+      color: #FFF
   .hexagon
     text-align: center
     height: 99px
@@ -31,5 +46,17 @@
 .service-card-title
   font-family: lato
   color: bdBlue
-  weight: 700
+  font-weight: 800
+  text-transform: uppercase
   font-size: 16px
+  margin-bottom: 10px
+
+@media lapBreakpoint
+  .service-card.first
+    float: right
+  .service-card.third
+    @extend .center-block
+
+@media palmBreakpoint
+  .service-card
+    @extend .center-block

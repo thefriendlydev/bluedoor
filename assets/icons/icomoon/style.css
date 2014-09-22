@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-pqcyzk');
-	src:url('fonts/icomoon.eot?#iefix-pqcyzk') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-pqcyzk') format('woff'),
-		url('fonts/icomoon.ttf?-pqcyzk') format('truetype'),
-		url('fonts/icomoon.svg?-pqcyzk#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?vqhvyz');
+	src:url('fonts/icomoon.eot?#iefixvqhvyz') format('embedded-opentype'),
+		url('fonts/icomoon.woff?vqhvyz') format('woff'),
+		url('fonts/icomoon.ttf?vqhvyz') format('truetype'),
+		url('fonts/icomoon.svg?vqhvyz#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -31,4 +31,7 @@
 }
 .icon-consulting:before {
 	content: "\e602";
+}
+.icon-arrow-left:before {
+	content: "\e603";
 }

@@ -255,6 +255,8 @@ if(function_exists("register_field_group"))
     ),
     'menu_order' => 4,
   ));
+
+
   register_field_group(array (
     'id' => 'acf_service-1',
     'title' => 'Service 1',
@@ -264,7 +266,7 @@ if(function_exists("register_field_group"))
         'label' => 'Service Title',
         'name' => 'service_title_1',
         'type' => 'text',
-        'default_value' => 'Strategy Development & Execution',
+        'default_value' => 'Strategy Development <br>& Execution',
         'placeholder' => '',
         'prepend' => '',
         'append' => '',
@@ -286,7 +288,7 @@ if(function_exists("register_field_group"))
       array (
         'key' => 'field_541fa45e4e699',
         'label' => 'Service Expanded Info',
-        'name' => 'service_expanded_info',
+        'name' => 'service_expanded_info_1',
         'type' => 'wysiwyg',
         'default_value' => '<p>Before you start doing social, you need to know what you should be doing. Do you know where you stand among your competitors? What are the industry leaders doing? What are you immediate opportunities? How many resources will you require to get where you need to be? How will you measure results? We will answer these and many other questions in this all-inclusive document. </p>
 
@@ -317,4 +319,144 @@ if(function_exists("register_field_group"))
     ),
     'menu_order' => 5,
   ));
+
+
+  register_field_group(array (
+    'id' => 'acf_service-2',
+    'title' => 'Service 2',
+    'fields' => array (
+      array (
+        'key' => 'field_541fa3fe4e6972',
+        'label' => 'Service Title',
+        'name' => 'service_title_2',
+        'type' => 'text',
+        'default_value' => 'Advertising <br>Campaigns',
+        'placeholder' => '',
+        'prepend' => '',
+        'append' => '',
+        'formatting' => 'html',
+        'maxlength' => '',
+      ),
+      array (
+        'key' => 'field_541fa4344e6982',
+        'label' => 'Service Short Description',
+        'name' => 'service_short_description_2',
+        'type' => 'text',
+        'default_value' => 'Reach your target audience where they spend their time – online and on mobile devices. Social media advertising is only a few years old, and we were there from the beginning. Let us show you how to drive converting traffic from social networks into your e-commerce channel with an effective pay-per-click advertising campaign.',
+        'placeholder' => '',
+        'prepend' => '',
+        'append' => '',
+        'formatting' => 'html',
+        'maxlength' => '',
+      ),
+      array (
+        'key' => 'field_541fa45e4e6992',
+        'label' => 'Service Expanded Info',
+        'name' => 'service_expanded_info_2',
+        'type' => 'wysiwyg',
+        'default_value' => '<p>If you are investing in any form of digital marketing, you cannot ignore smartphones, tablets or social media advertising. After all, 78% of social media users access these networks through their mobile devices. Social media advertising is our specialty, and we’ve been doing it since it became available for the first time in 2010. Whether it is a campaign on Facebook, LinkedIn, Twitter, Instagram or another social network, we will build the right approach for your business, your industry, and your specific audience. With detailed conversion tracking, you will know exactly what you are getting out of every dollar spent.</p>
+
+  <p>Watch this short video to learn more about our approach to social media advertising.</p>
+
+  [youtube_video id="l9JzRzKlmfs"]',
+        'toolbar' => 'full',
+        'media_upload' => 'yes',
+      ),
+    ),
+    'location' => array (
+      array (
+        array (
+          'param' => 'page_template',
+          'operator' => '==',
+          'value' => 'page-bluedoor.php',
+          'order_no' => 0,
+          'group_no' => 0,
+        ),
+      ),
+    ),
+    'options' => array (
+      'position' => 'acf_after_title',
+      'layout' => 'default',
+      'hide_on_screen' => array (
+        0 => 'the_content',
+      ),
+    ),
+    'menu_order' => 6,
+  ));
+
+
+
+  register_field_group(array (
+    'id' => 'acf_service-3',
+    'title' => 'Service 3',
+    'fields' => array (
+      array (
+        'key' => 'field_541fa3fe4e69723',
+        'label' => 'Service Title',
+        'name' => 'service_title_3',
+        'type' => 'text',
+        'default_value' => 'Consulting &<br>Training Services',
+        'placeholder' => '',
+        'prepend' => '',
+        'append' => '',
+        'formatting' => 'html',
+        'maxlength' => '',
+      ),
+      array (
+        'key' => 'field_541fa4344e69823',
+        'label' => 'Service Short Description',
+        'name' => 'service_short_description_3',
+        'type' => 'text',
+        'default_value' => 'We pride ourselves on being more than a vendor. We are a partner. Social media is a fast moving machine, and to gain a true competitive advantage, you need to be ahead of the curve. We are not a digital marketing company, we are a social media company. Social is ALL we do, and this allows us to be the best at it. Tap into our top industry talent for an internal marketing workshop or assistance with your next product launch.',
+        'placeholder' => '',
+        'prepend' => '',
+        'append' => '',
+        'formatting' => 'html',
+        'maxlength' => '',
+      ),
+      array (
+        'key' => 'field_541fa45e4e69923',
+        'label' => 'Service Expanded Info',
+        'name' => 'service_expanded_info_3',
+        'type' => 'wysiwyg',
+        'default_value' => '<p>As your partner, our job is to equip you with world class social media. That means, you can ask us anything. Our approach and deliverables are always tailored to your business needs. Below are some of the common consulting and training services that our clients tap into:</p>
+                                        <ul>
+                                          <li>Short term campaigns for product launches</li>
+                                          <li>Running contests or special promotions</li>
+                                          <li>Internal training on various social media topics</li>
+                                          <li>Helping your sales team get the most out of social</li>
+                                          <li>Equipping your team with analytical tools</li>
+                                          <li>Technical training on management tools</li>
+                                          <li>Proper ROI tracking guidance</li>
+                                          <li>Guest speaking at seminars and internal workshops</li>
+                                          <li>Community management best practices</li>
+                                          <li>Fusing social with your customer service team </li>
+                                          <li>Much more!</li>
+                                        </ul>',
+        'toolbar' => 'full',
+        'media_upload' => 'yes',
+      ),
+    ),
+    'location' => array (
+      array (
+        array (
+          'param' => 'page_template',
+          'operator' => '==',
+          'value' => 'page-bluedoor.php',
+          'order_no' => 0,
+          'group_no' => 0,
+        ),
+      ),
+    ),
+    'options' => array (
+      'position' => 'acf_after_title',
+      'layout' => 'default',
+      'hide_on_screen' => array (
+        0 => 'the_content',
+      ),
+    ),
+    'menu_order' => 7,
+  ));
+
+
 }

@@ -1,6 +1,7 @@
 <?php
 
 class HomeHelpers {
+  // HERO SECTION
   public static function hero_background() {
     $hero_background = the_field("hero_background");
     return $hero_background;
@@ -46,6 +47,7 @@ class HomeHelpers {
     return $assessment_price;
   }
 
+  // SERVICES SECTION
   public static function services_main_tagline() {
     $services_main_tagline = the_field("services_main_tagline");
     return $services_main_tagline;
@@ -54,6 +56,51 @@ class HomeHelpers {
   public static function services_sub_tagline() {
     $services_sub_tagline = the_field("services_sub_tagline");
     return $services_sub_tagline;
+  }
+
+  public static function service_title_1() {
+    $service_title_1 = the_field("service_title_1");
+    return $service_title_1;
+  }
+
+  public static function service_short_description_1() {
+    $service_short_description_1 = the_field("service_short_description_1");
+    return $service_short_description_1;
+  }
+
+  public static function service_expanded_info_1() {
+    $service_expanded_info_1 = the_field("service_expanded_info_1");
+    return $service_expanded_info_1;
+  }
+
+  public static function service_title_2() {
+    $service_title_2 = the_field("service_title_2");
+    return $service_title_2;
+  }
+
+  public static function service_short_description_2() {
+    $service_short_description_2 = the_field("service_short_description_2");
+    return $service_short_description_2;
+  }
+
+  public static function service_expanded_info_2() {
+    $service_expanded_info_2 = the_field("service_expanded_info_2");
+    return $service_expanded_info_2;
+  }
+
+  public static function service_title_3() {
+    $service_title_3 = the_field("service_title_3");
+    return $service_title_3;
+  }
+
+  public static function service_short_description_3() {
+    $service_short_description_3 = the_field("service_short_description_3");
+    return $service_short_description_3;
+  }
+
+  public static function service_expanded_info_3() {
+    $service_expanded_info_3 = the_field("service_expanded_info_3");
+    return $service_expanded_info_3;
   }
 
 }
