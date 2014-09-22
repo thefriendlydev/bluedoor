@@ -1,0 +1,260 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M314.027 800.427h-269.653v-424.96h269.653v424.96zM95.573 749.227h167.253v-322.56h-167.253v322.56z",
+					"M979.627 820.907h-209.92v-298.667h209.92v298.667zM820.907 769.707h107.52v-196.267h-107.52v196.267z",
+					"M298.667 604.16h496.64v51.2h-496.64v-51.2z",
+					"M896 546.133h-51.2v-291.84h-648.533v146.773h-51.2v-197.973h750.933z",
+					"M669.013 756.053h-295.253l148.48-148.48 146.773 148.48zM496.64 704.853h49.493l-23.893-23.893-25.6 23.893z",
+					"M196.267 703.147c0 9.426-7.641 17.067-17.067 17.067s-17.067-7.641-17.067-17.067c0-9.426 7.641-17.067 17.067-17.067s17.067 7.641 17.067 17.067z",
+					"M890.88 730.453c0 9.426-7.641 17.067-17.067 17.067s-17.067-7.641-17.067-17.067c0-9.426 7.641-17.067 17.067-17.067s17.067 7.641 17.067 17.067z"
+				],
+				"attrs": [
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					}
+				],
+				"grid": 0,
+				"tags": [
+					"bd-01"
+				]
+			},
+			"attrs": [
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				}
+			],
+			"properties": {
+				"order": 5,
+				"id": 2,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "advertising",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M296.96 633.173c-78.507 0-143.36-64.853-143.36-143.36s64.853-143.36 143.36-143.36 143.36 64.853 143.36 143.36-63.147 143.36-143.36 143.36zM296.96 397.653c-51.2 0-92.16 40.96-92.16 92.16s40.96 92.16 92.16 92.16 92.16-40.96 92.16-92.16-40.96-92.16-92.16-92.16z",
+					"M680.506 678.885l196.39 211.244-37.499 34.862-196.39-211.244 37.499-34.862z",
+					"M849.254 685.030l34.862 37.499-211.244 196.39-34.862-37.499 211.244-196.39z",
+					"M757.76 327.68l-116.053-143.36-98.987 143.36-42.667-29.013 139.947-199.68 157.013 197.973z",
+					"M177.493 892.587c-20.48 0-34.133-1.707-37.547-1.707l5.12-51.2c1.707 0 208.213 20.48 348.16-122.88 114.347-117.76 155.307-310.613 121.173-571.733l51.2-6.827c35.84 279.893-10.24 486.4-136.533 614.4-121.173 124.587-279.893 139.947-351.573 139.947z"
+				],
+				"attrs": [
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					}
+				],
+				"grid": 0,
+				"tags": [
+					"bd-02"
+				]
+			},
+			"attrs": [
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				}
+			],
+			"properties": {
+				"order": 6,
+				"id": 1,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "strategy",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M913.067 829.44h-802.133v-529.067h802.133v529.067zM162.133 778.24h699.733v-426.667h-699.733v426.667z",
+					"M667.307 351.573h-310.613v-157.013h310.613v157.013zM407.893 300.373h208.213v-54.613h-208.213v54.613z",
+					"M459.093 522.24h104.107v68.267h-104.107v-68.267z",
+					"M136.533 493.227h750.933v51.2h-750.933v-51.2z"
+				],
+				"attrs": [
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					},
+					{
+						"opacity": 1,
+						"visibility": false
+					}
+				],
+				"grid": 0,
+				"tags": [
+					"bd-03"
+				]
+			},
+			"attrs": [
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				},
+				{
+					"opacity": 1,
+					"visibility": false
+				}
+			],
+			"properties": {
+				"order": 7,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "consulting",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 2
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": false
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": ""
+	}
+}
