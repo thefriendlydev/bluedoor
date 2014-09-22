@@ -46,29 +46,14 @@ class HomeHelpers {
     return $assessment_price;
   }
 
-  // public static function end_date() {
-  //   $value = DateTime::createFromFormat('Ymd', get_field('event_end_date'));
-  //   return $value->format('d');
-  // }
+  public static function services_main_tagline() {
+    $services_main_tagline = the_field("services_main_tagline");
+    return $services_main_tagline;
+  }
 
-  // public static function start_date() {
-  //   $value = DateTime::createFromFormat('Ymd', get_field('event_start_date'));
-  //   return $value->format('d');
-  // }
-
-  // public static function hero_image() {
-  //   $hero_image = get_field('hero_image');
-  //   return $hero_image['url'];
-  // }
-
-  // public static function province() {
-  //   $province = the_field("province");
-  //   return ucfirst($province);
-  // }
-
-  // public static function town_name() {
-  //   $town_name = the_field('town_name');
-  //   return $town_name;
-  // }
+  public static function services_sub_tagline() {
+    $services_sub_tagline = the_field("services_sub_tagline");
+    return $services_sub_tagline;
+  }
 
 }

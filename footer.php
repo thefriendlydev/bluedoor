@@ -5,6 +5,9 @@
 
     <script src="<?php bloginfo('template_url'); ?>/dist/js/vendor.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/dist/js/application.js"></script>
+    <script>
+     new WOW().init();
+    </script>
     <?php wp_footer(); ?>
   </body>
 </html>

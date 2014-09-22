@@ -37,6 +37,16 @@ gulp.task('styl', function() {
     .pipe(gulp.dest('./dist/css/'))
 })
 
+// Icomoon
+// copy necessary icomoon assets into dist folder
+gulp.task('icons', function() {
+  gulp.src('./assets/icons/icomoon/style.css')
+    .pipe(rename('_icons.styl'))
+    .pipe(gulp.dest('./assets/styl/initializers/'))
+
+  gulp.src('./assets/icons/icomoon/fonts/**/*')
+    .pipe(gulp.dest('./dist/css/fonts/'))
+})
 
 //-- Compile Javascripts ----------------------------------------------------
 gulp.task('scripts', function() {
@@ -94,7 +104,7 @@ gulp.task('clean', function() {
 
 //-- Default Task -----------------------------------------------------------
 gulp.task('default', function() {
-  gulp.start('styl', 'scripts', 'vendor-css', 'vendor-js', 'images', 'watch');
+  gulp.start('styl', 'scripts', 'vendor-css', 'vendor-js', 'images', 'icons', 'watch');
 });
 
 
@@ -102,6 +112,7 @@ gulp.task('default', function() {
 gulp.task('watch', function() {
 
   gulp.watch('./assets/styl/**/*.styl', ['styl']);
+  gulp.watch('./src/icons/**/*', ['icons', 'styl']);
   gulp.watch('./assets/js/**/*.js', ['scripts']);
   gulp.watch('./assets/img/**/*', ['images']);
   gulp.watch(bowerCssDependencies, ['vendor-css']);
