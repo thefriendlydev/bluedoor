@@ -1,50 +1,45 @@
-/* ========================================================= */
-/* media */
-/* ========================================================= */
-
-// =======================================
-// 1.Block
-// =======================================
+/*!!!
+  section: Combos
+  title: Combo (default)
+  jade: |
+    .combo
+      .combo-first
+        .card Combo First
+      .combo-last
+        .card Combo Last
+  */
 .combo
   display: table
   width: 100%
-
-// =======================================
-// 2.Elements
-// =======================================
-.combo-left
-  display: table-cell
-  padding-right: 5px
-  vertical-align: top
-
-.combo-right
-  display: table-cell
-  padding-left: 5px
-  vertical-align: top
-
-// =======================================
-// 3.Modifiers
-// =======================================
-.combo--left
-  > *:first-child
-    width: 0
-    // white-space: nowrap
-    img
-      max-width: none
-  > *:last-child
-    width: 100%
-
-.combo--right
-  > *:first-child
-    width: 100%
-  > *:last-child
+  > .combo-first
     width: 0
     white-space: nowrap
     img
       max-width: none
+  > .combo-last
+    width: 100%
+  > *
+    vertical-align: top
 
-.combo-middle
-  vertical-align: middle
+/*!!!
+  section: Combos
+  title: Combo Reversed
+  jade: |
+    .combo.combo--reversed
+      .combo-first
+        .card Combo First
+      .combo-last
+        .card Combo Last
+  */
+.combo--reversed
+  > .combo-first
+    width: 100%
+    white-space: normal
+  > .combo-last
+    width: 0
+    white-space: nowrap
+    img
+      max-width: none
 
 .combo--middle
   > *
@@ -54,26 +49,50 @@
   > *
     vertical-align: bottom
 
+.combo--auto
+  width: auto
+  > .combo-first
+    width: 0
+  > .combo-last
+    width: auto
+  &.combo--reversed
+    > .combo-first
+      width: auto
+    > .combo-last
+      width: 0
+
+/*!!!
+  section: Combos
+  title: Combo Narrow
+  jade: |
+    .combo.combo--narrow
+      .combo-first
+        .card Combo First
+      .combo-last
+        .card Combo Last
+  */
 .combo--narrow
-  > *:first-child
-    padding-right: 2.5px
-  > *:last-child
-    padding-left: 2.5px
+  > .combo-first
+    padding-right: 6px
+  > .combo-last
+    padding-left: 6px
 
 .combo--wide
-  > *:first-child
-    padding-right: 10px
-  > *:last-child
-    padding-left: 10px
-
-.combo--xwide
-  > *:first-child
-    padding-right: 20px
-  > *:last-child
-    padding-left: 20px
+  > .combo-first
+    padding-right: 24px
+  > .combo-last
+    padding-left: 24px
 
 .combo--full
-  > *:first-child
+  > .combo-first
     padding-right: 0
-  > *:last-child
+  > .combo-last
     padding-left: 0
+
+.combo-first
+  display: table-cell
+  padding-right: 12px
+
+.combo-last
+  display: table-cell
+  padding-left: 12px

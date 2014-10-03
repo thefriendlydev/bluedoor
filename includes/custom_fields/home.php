@@ -294,7 +294,7 @@ if(function_exists("register_field_group"))
 
   <p>Check out this short video to learn more about our approach to social media strategy development</p>
 
-  [youtube_video id="VkxYGJk9pwE"]',
+  <p>http://www.youtube.com/watch?v=VkxYGJk9pwE</p>',
         'toolbar' => 'full',
         'media_upload' => 'yes',
       ),
@@ -358,7 +358,7 @@ if(function_exists("register_field_group"))
 
   <p>Watch this short video to learn more about our approach to social media advertising.</p>
 
-  [youtube_video id="l9JzRzKlmfs"]',
+  <p>http://www.youtube.com/watch?v=l9JzRzKlmfs</p>',
         'toolbar' => 'full',
         'media_upload' => 'yes',
       ),

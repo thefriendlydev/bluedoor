@@ -103,4 +103,15 @@ class HomeHelpers {
     return $service_expanded_info_3;
   }
 
+  //WHY US SECTION
+  public static function why_us_main_tagline() {
+    $why_us_main_tagline = the_field("why_us_main_tagline");
+    return $why_us_main_tagline;
+  }
+
+  public static function why_us_sub_tagline() {
+    $why_us_sub_tagline = the_field("why_us_sub_tagline");
+    return $why_us_sub_tagline;
+  }
+
 }
