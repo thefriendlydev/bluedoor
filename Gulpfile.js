@@ -16,7 +16,7 @@ var gulp = require('gulp'),
 
 //-- Bower Dependencies -----------------------------------------------------
 var bowerJsDependencies = [
-  './vendor/jquery/dist/jquery.js',
+  // './vendor/jquery/dist/jquery.js',
   './vendor/wowjs/dist/wow.min.js'
 ];
 var bowerCssDependencies = [

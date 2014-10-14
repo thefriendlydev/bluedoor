@@ -114,4 +114,41 @@ class HomeHelpers {
     return $why_us_sub_tagline;
   }
 
+  //CLIENTS SECTION
+  public static function clients_main_tagline() {
+    $clients_main_tagline = the_field("clients_main_tagline");
+    return $clients_main_tagline;
+  }
+
+  public static function clients_sub_tagline() {
+    $clients_sub_tagline = the_field("clients_sub_tagline");
+    return $clients_sub_tagline;
+  }
+
+  //BLOG
+  public static function blog_main_tagline() {
+    $blog_main_tagline = the_field("blog_main_tagline");
+    return $blog_main_tagline;
+  }
+
+  public static function blog_sub_tagline() {
+    $blog_sub_tagline = the_field("blog_sub_tagline");
+    return $blog_sub_tagline;
+  }
+
+  public static function essential_grid_shortcode() {
+    $essential_grid_shortcode = the_field("essential_grid_shortcode");
+    return $essential_grid_shortcode;
+  }
+
+  //CONTACT US SECTION
+  public static function contact_us_main_tagline() {
+    $contact_us_main_tagline = the_field("contact_us_main_tagline");
+    return $contact_us_main_tagline;
+  }
+
+  public static function contact_us_sub_tagline() {
+    $contact_us_sub_tagline = the_field("contact_us_sub_tagline");
+    return $contact_us_sub_tagline;
+  }
 }

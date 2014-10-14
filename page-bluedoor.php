@@ -18,5 +18,7 @@
 <?php get_template_part('partials/home/hero'); ?>
 <?php get_template_part('partials/home/services'); ?>
 <?php get_template_part('partials/home/why_us'); ?>
-<div class="temp-spacing"></div>
+<?php get_template_part('partials/home/clients'); ?>
+<?php get_template_part('partials/home/blog'); ?>
+<?php get_template_part('partials/home/contact_us'); ?>
 <?php get_footer(); ?>

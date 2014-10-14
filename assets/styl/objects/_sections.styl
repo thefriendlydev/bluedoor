@@ -11,7 +11,7 @@
     -o-background-size: cover
     background-size: cover
   .blue-geometric
-    padding: 50px 0
+    padding: 50px 0 0
     position: relative
     background: url('/wp-content/themes/bluedoor/dist/img/blue_geometric.png') repeat
   .blue-cover
@@ -19,8 +19,21 @@
     width: 100%
     background-color: rgba(20,121,183,0.8)
     padding-bottom: 50px
+  .blue-gradient
+    padding: 50px 0 0
+    background-image: -webkit-gradient( linear, right top, left bottom, color-stop(0.12, #1597B8), color-stop(1, #0E52A0) ); background-image: -o-linear-gradient(left bottom, #1597B8 12%, #0E52A0 100%); background-image: -moz-linear-gradient(left bottom, #1597B8 12%, #0E52A0 100%); background-image: -webkit-linear-gradient(left bottom, #1597B8 12%, #0E52A0 100%); background-image: -ms-linear-gradient(left bottom, #1597B8 12%, #0E52A0 100%); background-image: linear-gradient(to left bottom, #1597B8 12%, #0E52A0 100%);
+    color: #FFFFFF
+  .white-cover
+    height: 100%
+    width: 100%
+    background-color: #FFFFFF
+    padding: 50px 0 0
   .light-blue-cover
     height: 100%
     width: 100%
     background-color: rgba(152,170,172,0.1)
     padding: 50px 0
+
+  &.blog
+    h2
+      color: bdBlue
