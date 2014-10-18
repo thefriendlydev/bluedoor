@@ -20,3 +20,8 @@ require_once 'includes/custom_fields/home.php';
 require_once 'includes/helpers/home.php';
 
 //-- Static Pages ---------------------------------------------------------
+
+add_action( 'wp_enqueue_script', 'load_jquery' );
+function load_jquery() {
+    wp_enqueue_script( 'jquery' );
+}

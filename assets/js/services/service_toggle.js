@@ -1,4 +1,5 @@
-// LEARN MORE CLICKED
+(function($) {
+  // LEARN MORE CLICKED
 $( "#serviceOneButton" ).click(function(){
   $( "#serviceOne, #serviceTwo, #serviceThree" )
     .removeAttr("style")
@@ -107,3 +108,4 @@ $( "#serviceThreeBack" ).click(function(){
       $(this).add("#serviceOne, #serviceTwo, #serviceThree").removeClass("hide").dequeue();
     });
 });
+})(jQuery);
