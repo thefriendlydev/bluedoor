@@ -27,7 +27,7 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
       <div class='primary-nav'>
-        <img class="logo" src="<?php the_field('header_logo', 'option'); ?>">
+        <a href="/"><img class="logo" src="<?php the_field('header_logo', 'option'); ?>"></a>
         <span class="tagline"><?php the_field('main_tagline', 'option'); ?></span>
       </div>
 
