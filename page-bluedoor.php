@@ -20,5 +20,4 @@
 <?php get_template_part('partials/home/why_us'); ?>
 <?php get_template_part('partials/home/clients'); ?>
 <?php get_template_part('partials/home/blog'); ?>
-<?php get_template_part('partials/home/contact_us'); ?>
 <?php get_footer(); ?>
