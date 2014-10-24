@@ -1,6 +1,6 @@
 (function($) {
   // LEARN MORE CLICKED
-$( "#serviceOneButton" ).click(function(){
+$( "#serviceOneButton, #serviceOneTitle" ).click(function(){
   $( "#serviceOne, #serviceTwo, #serviceThree" )
     .removeAttr("style")
     .removeClass("wow bounceInUp")
@@ -18,7 +18,7 @@ $( "#serviceOneButton" ).click(function(){
     });
 });
 
-$( "#serviceTwoButton" ).click(function(){
+$( "#serviceTwoButton, #serviceTwoTitle" ).click(function(){
   $( "#serviceOne, #serviceTwo, #serviceThree" )
     .removeAttr("style")
     .removeClass("wow bounceInUp")
@@ -36,7 +36,7 @@ $( "#serviceTwoButton" ).click(function(){
     });
 });
 
-$( "#serviceThreeButton" ).click(function(){
+$( "#serviceThreeButton, #serviceThreeTitle" ).click(function(){
   $( "#serviceOne, #serviceTwo, #serviceThree" )
     .removeAttr("style")
     .removeClass("wow bounceInUp")

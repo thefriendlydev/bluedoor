@@ -3,7 +3,7 @@
     <div class="hexagon">
       <div class="icon"><i class="icon-advertising"></i></div>
     </div>
-    <div class="service-card-title"><?= HomeHelpers::service_title_2(); ?></div>
+    <div class="service-card-title" id="serviceTwoTitle"><?= HomeHelpers::service_title_2(); ?></div>
     <p><?= HomeHelpers::service_short_description_2(); ?></p>
     <div class="button" id="serviceTwoButton">Learn More</div>
   </div>
