@@ -1,4 +1,62 @@
+.user-featured-image, .user-content
+  margin-top: 30px
+
 .user-content
   img
     max-width: 100%
     height: auto
+    left: 0
+    right: 0
+    margin: 0 auto
+
+.user-featured-image
+  position: relative
+  img
+    width: 100%
+    height: auto
+
+.single-title
+  color: bdBlue
+  font-family: merriweather
+  font-size: 36px
+
+.single-date
+  font-family: lato
+  font-size: 12px
+  text-transform: uppercase
+  font-weight: 700
+  color: #98AAAC
+  margin: 10px 0 50px 0
+
+.single-content
+  margin-bottom: 40px
+
+.single-categories
+  border-top: 1px solid formGrey
+  padding: 10px 0 20px 0
+  ul
+    margin: 0
+    padding: 0
+    list-style-type: none
+    display: block
+    li
+      display: inline-block
+      a
+        font-family: lato
+        font-size: 12px
+        text-transform: uppercase
+        font-weight: 700
+        color: #98AAAC
+        text-decoration: none
+        display: inline-block
+        &:before
+          font-family: icomoon
+          display: inline-block
+          margin-top: 10px
+          content: "\f02b";
+          padding-right: 3px
+        &:hover
+          text-decoration: underline
+
+.single-comments
+  margin: 30px 0

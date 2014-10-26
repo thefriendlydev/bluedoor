@@ -16,6 +16,10 @@ include_once 'plugins/acf-options-page/acf-options-page.php';
 //-- Helpers --------------------------------------------------------------
 require_once 'includes/helpers/home.php';
 
+//-- WordPress Functuons --------------------------------------------------
+require_once 'includes/wordpress_functions/image_overrides.php';
+require_once 'includes/wordpress_functions/featured_image.php';
+
 //-- Static Pages ---------------------------------------------------------
 
 add_action( 'wp_enqueue_script', 'load_jquery' );
