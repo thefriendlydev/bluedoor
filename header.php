@@ -27,7 +27,49 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
       <div class='primary-nav'>
-        <a href="/"><img class="logo" src="<?php the_field('header_logo', 'option'); ?>"></a>
-        <span class="tagline"><?php the_field('main_tagline', 'option'); ?></span>
+        <div class="primary-nav--left">
+          <div class="logo-section">
+            <a href="/"><img class="logo" src="<?php the_field('header_logo', 'option'); ?>"></a>
+            <div class="tagline"><?php the_field('main_tagline', 'option'); ?></div>
+          </div>
+        </div>
+
+        <div class="primary-nav--right">
+          <div class="links">
+            <div class="menu">
+              <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="social-icons">
+              <?php if (get_field('twitter_link', 'option')): ?>
+                <a href="<?= the_field('twitter_link', 'option')  ?>"><i class="icon icon-twitter"></i></a>
+              <?php endif; ?>
+              <?php if (get_field('facebook_link', 'option')): ?>
+                <a href="<?= the_field('facebook_link', 'option')  ?>"><i class="icon icon-facebook"></i></a>
+              <?php endif; ?>
+              <?php if (get_field('youtube_link', 'option')): ?>
+                <a href="<?= the_field('youtube_link', 'option')  ?>"><i class="icon icon-youtube"></i></a>
+              <?php endif; ?>
+              <?php if (get_field('linkedin_link', 'option')): ?>
+                <a href="<?= the_field('linkedin_link', 'option')  ?>"><i class="icon icon-linkedin"></i></a>
+              <?php endif; ?>
+              <?php if (get_field('pinterest_link', 'option')): ?>
+                <a href="<?= the_field('pinterest_link', 'option')  ?>"><i class="icon icon-pinterest"></i></a>
+              <?php endif; ?>
+              <?php if (get_field('instagram_link', 'option')): ?>
+                <a href="<?= the_field('instagram_link', 'option')  ?>"><i class="icon icon-instagram"></i></a>
+              <?php endif; ?>
+              <?php if (get_field('google_plus_link', 'option')): ?>
+                <a href="<?= the_field('google_plus_link', 'option')  ?>"><i class="icon icon-google-plus"></i></a>
+              <?php endif; ?>
+            </div>
+          </div>
+        </div>
+
       </div>
 

@@ -16,8 +16,18 @@
 <?php get_header(); ?>
 
 <?php get_template_part('partials/home/hero'); ?>
-<?php get_template_part('partials/home/services'); ?>
-<?php get_template_part('partials/home/why_us'); ?>
-<?php get_template_part('partials/home/clients'); ?>
-<?php get_template_part('partials/home/blog'); ?>
-<?php get_footer(); ?>
+<div id="services">
+  <?php get_template_part('partials/home/services'); ?>
+</div>
+<div id="why-us">
+  <?php get_template_part('partials/home/why_us'); ?>
+</div>
+<div id="clients">
+  <?php get_template_part('partials/home/clients'); ?>
+</div>
+<div id="blog">
+  <?php get_template_part('partials/home/blog'); ?>
+</div>
+<div id="contact">
+  <?php get_footer(); ?>
+</div>

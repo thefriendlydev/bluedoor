@@ -2,18 +2,24 @@
   position: absolute
   z-index: 1
   width: 100%
+  display: table
   padding: 20px 50px
   @extend .box-sizing
+  .logo-section
+    display: inline-block
   .logo
     max-width: 150px
+    display: block
+  .links
+    display: inline-block
   .tagline
-    float: right
+    display: block
+    margin-top: 10px
     font-family: lato
     font-size: 14px
     font-weight: 400
     opacity: 0.9
     color: #FFFFFF
-    margin-top: 8px
 
   @media portableBreakpoint
     padding: 20px
@@ -26,3 +32,48 @@
   padding: 38px 0
   background-image: -webkit-gradient( linear, right top, left bottom, color-stop(0.12, #1597B8), color-stop(1, #0E52A0) ); background-image: -o-linear-gradient(left bottom, #1597B8 12%, #0E52A0 100%); background-image: -moz-linear-gradient(left bottom, #1597B8 12%, #0E52A0 100%); background-image: -webkit-linear-gradient(left bottom, #1597B8 12%, #0E52A0 100%); background-image: -ms-linear-gradient(left bottom, #1597B8 12%, #0E52A0 100%); background-image: linear-gradient(to left bottom, #1597B8 12%, #0E52A0 100%);
   color: #FFFFFF
+
+.primary-nav--left
+  display: table-cell
+  vertical-align: middle
+
+.primary-nav--right
+  display: table-cell
+  vertical-align: middle
+  text-align: right
+
+.social-icons
+  margin-top: 10px
+  a
+    text-decoration: none
+    margin: 0 5px
+    &:last-child
+      margin: 0 0 0 5px
+    i
+      color: #FFFFFF
+      font-size: 18px
+      transition: all 0.1s ease-in-out
+      opacity: .9
+      &:hover
+        opacity: 1
+
+.menu
+  ul
+    margin: 0
+    padding: 0
+    list-style-type: none
+  li
+    display: inline-block
+    margin: 0 5px
+    font-size: 16px
+    font-family: lato
+    &:last-child
+      margin: 0 0 0 5px
+    a
+      display: block
+      text-decoration: none
+      transition: all 0.1s ease-in-out
+      color: #FFFFFF
+      opacity: .9
+      &:hover
+        opacity: 1
