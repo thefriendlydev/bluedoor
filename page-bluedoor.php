@@ -14,8 +14,9 @@
 ?>
 
 <?php get_header(); ?>
-
-<?php get_template_part('partials/home/hero'); ?>
+<div id="home">
+  <?php get_template_part('partials/home/hero'); ?>
+</div>
 <div id="services">
   <?php get_template_part('partials/home/services'); ?>
 </div>
