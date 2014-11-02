@@ -108,4 +108,10 @@ $( "#serviceThreeBack" ).click(function(){
       $(this).add("#serviceOne, #serviceTwo, #serviceThree").removeClass("hide").dequeue();
     });
 });
+
+  // init off canvas nav
+  $('.siteHeader-navTrigger').on('click', function(){
+    $('body').toggleClass('is-offCanvas');
+  });
+
 })(jQuery);
