@@ -1,7 +1,7 @@
 <div class="grid__item one-third lap--one-half palm--one-whole wow bounceInUp no-flicker" id="serviceOne" data-wow-delay="0.1s" data-wow-duration="1.3s">
   <div class="service-card first">
     <div class="hexagon">
-      <div class="icon"><i class="icon-strategy"></i></div>
+      <div class="iconBlock"><i class="icon icon-strategy"></i></div>
     </div>
     <div class="service-card-title" id="serviceOneTitle"><?= HomeHelpers::service_title_1(); ?></div>
     <p><?= HomeHelpers::service_short_description_1(); ?></p>
@@ -13,7 +13,7 @@
   <div class="combo">
     <div class="combo-first">
       <div class="hexagon">
-        <div class="icon"><i class="icon-strategy"></i></div>
+        <div class="iconBlock"><i class="icon icon-strategy"></i></div>
       </div>
     </div>
     <div class="combo-last">
