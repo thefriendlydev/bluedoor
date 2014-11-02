@@ -36,5 +36,6 @@
     <script>
      new WOW().init();
     </script>
+  </div>
   </body>
 </html>

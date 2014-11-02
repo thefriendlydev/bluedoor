@@ -18,6 +18,7 @@ require_once 'includes/helpers/home.php';
 
 //-- WordPress Functuons --------------------------------------------------
 require_once 'includes/wordpress_functions/image_overrides.php';
+require_once 'includes/wordpress_functions/menus.php';
 require_once 'includes/wordpress_functions/featured_image.php';
 
 //-- Static Pages ---------------------------------------------------------

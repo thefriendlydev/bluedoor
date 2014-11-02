@@ -22,6 +22,20 @@
     <?php wp_head(); ?>
   </head>
     <body <?php body_class(); ?>>
+      <?php wp_nav_menu( array( 'theme_location' => 'hidden-nav', 'container_class' => 'navigation', 'menu_class' => 'navigation-list' ) ); ?>
+      <!-- <div class="navigation">
+        <ul class="navigation-list">
+          <li class="nav-item"><a href="#services">Services</a></li>
+          <li class="nav-item"><a href="#why-us">Why Us</a></li>
+          <li class="nav-item"><a href="#clients">Clients</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </div> -->
+
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger"></label>
+
+      <div class="site-wrap">
 
       <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -36,15 +50,6 @@
 
         <div class="primary-nav--right">
           <div class="links">
-            <div class="menu">
-              <ul>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#why-us">Why Us</a></li>
-                <li><a href="#clients">Clients</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-
             <div class="social-icons">
               <?php if (get_field('twitter_link', 'option')): ?>
                 <a href="<?= the_field('twitter_link', 'option')  ?>"><i class="icon icon-twitter"></i></a>
