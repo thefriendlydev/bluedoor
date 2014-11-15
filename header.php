@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title><?php wp_title( 'Bluedoor Inc. - ', true, 'left' ); ?></title>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <meta name="description" content="">
+    <meta name="description" content="Social media strategy development and execution, advertising campaigns, training and consulting. We equip your marketing team with knowledge and tools to deliver real business results through social media.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="<?php bloginfo('template_url'); ?>/dist/css/vendor.css" rel="stylesheet">
@@ -28,6 +28,7 @@
         <!--[if lt IE 7]>
           <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <a class="offscreen" href="https://plus.google.com/118325535108985218675" rel="publisher">Google+</a>
         <div class='primary-nav'>
           <div class="primary-nav--left">
             <div class="logo-section">
