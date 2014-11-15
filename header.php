@@ -37,6 +37,7 @@
           </div>
 
           <div class="primary-nav--right">
+            <?php wp_nav_menu( array( 'theme_location' => 'hidden-nav', 'container_class' => 'fullNav--container', 'menu_class' => 'fullNav' ) ); ?>
             <div class="links">
               <div class="social-icons">
                 <?php if (get_field('twitter_link', 'option')): ?>

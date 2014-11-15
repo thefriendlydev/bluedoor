@@ -11,7 +11,7 @@
     max-width: 150px
     display: block
   .links
-    display: inline-block
+    display: block
   .tagline
     display: block
     margin-top: 10px
@@ -145,10 +145,12 @@ body
   height: 42px
   transform: translate3d(0, 0, 0)
   background: bdBlue
+  display: none
   @media palmBreakpoint
     width: 42px
     height: 38px
     top: 15px
+    display: block
 
   div
     transition: all 0.3s ease-in-out
@@ -212,4 +214,23 @@ body
           margin-bottom: -2px
 
 /* Micro reset */
-*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+
+.fullNav--container
+  display: block
+
+.fullNav
+  @media palmBreakpoint
+    display: none
+  @extend .plain-list
+  li
+    display: inline-block
+    font-size: 16px
+    font-family: lato
+    padding: 0 0 5px 15px
+    a
+      color: #FFFFFF
+      opacity: .9
+      text-decoration: none
+      &:hover
+        opacity: 1
