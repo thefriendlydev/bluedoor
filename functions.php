@@ -20,6 +20,7 @@ require_once 'includes/helpers/home.php';
 require_once 'includes/wordpress_functions/image_overrides.php';
 require_once 'includes/wordpress_functions/menus.php';
 require_once 'includes/wordpress_functions/featured_image.php';
+require_once 'includes/wordpress_functions/sidebars.php';
 
 //-- Static Pages ---------------------------------------------------------
 

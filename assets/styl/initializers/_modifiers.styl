@@ -36,3 +36,20 @@
   position: absolute
   left: -9999px
   top: -9999px
+
+.mobile-only
+  @media palmBreakpoint
+    display: inline-block
+    margin: 15px 0 30px 0
+  @media lapBreakpoint
+    display: none
+  @media deskBreakpoint
+    display: none
+
+.not-mobile
+  @media palmBreakpoint
+    display: none
+  @media lapBreakpoint
+    display: inline-block
+  @media deskBreakpoint
+    display: inline-block
