@@ -9,7 +9,7 @@ Description: A simple example YARPP template.
 <ol>
   <?php while (have_posts()) : the_post(); ?>
   <li>
-    <div class="combo">
+    <div class="combo combo--middle">
       <div class="combo-first">
         <?php if( get_field('post_thumbnail') ): ?>
           <a class="yarpp-bluedoor-thumbnail" href="<?php the_permalink() ?>" rel="bookmark"><img src="<?php the_field('post_thumbnail'); ?>" /></a>
