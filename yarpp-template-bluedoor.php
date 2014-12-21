@@ -6,8 +6,7 @@ Description: A simple example YARPP template.
 */
 ?><h3>Related Posts</h3>
 <?php if (have_posts()):?>
-  <div class="yarppBluedoor">
-  <ul>
+  <ul class="yarppBluedoor">
     <?php while (have_posts()) : the_post(); ?>
     <li>
       <div class="combo combo--middle">
@@ -23,7 +22,6 @@ Description: A simple example YARPP template.
     </li>
     <?php endwhile; ?>
   </ul>
-  </div>
 <?php else: ?>
 <p>No related posts.</p>
 <?php endif; ?>
