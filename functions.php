@@ -32,3 +32,4 @@ function load_jquery() {
 //-- Custom Fields Definitions --------------------------------------------
 require_once 'includes/custom_fields/home.php';
 require_once 'includes/custom_fields/options.php';
+require_once 'includes/custom_fields/post_single.php';

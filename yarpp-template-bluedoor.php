@@ -11,8 +11,8 @@ Description: A simple example YARPP template.
   <li>
     <div class="combo">
       <div class="combo-first">
-        <?php if (has_post_thumbnail()):?>
-          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
+        <?php if( get_field('post_thumbnail') ): ?>
+          <a class="yarpp-thumnail" href="<?php the_permalink() ?>" rel="bookmark"><img src="<?php the_field('post_thumbnail'); ?>" /></a>
         <?php endif; ?>
       </div>
       <div class="combo-last">
