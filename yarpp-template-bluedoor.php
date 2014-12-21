@@ -12,7 +12,7 @@ Description: A simple example YARPP template.
     <div class="combo">
       <div class="combo-first">
         <?php if( get_field('post_thumbnail') ): ?>
-          <a class="yarpp-thumbnail" href="<?php the_permalink() ?>" rel="bookmark"><img src="<?php the_field('post_thumbnail'); ?>" /></a>
+          <a class="yarpp-bluedoor-thumbnail" href="<?php the_permalink() ?>" rel="bookmark"><img src="<?php the_field('post_thumbnail'); ?>" /></a>
         <?php endif; ?>
       </div>
       <div class="combo-last">
