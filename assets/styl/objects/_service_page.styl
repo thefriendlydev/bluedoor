@@ -16,6 +16,18 @@
   position: relative
   padding: 25px 175px 25px 0
   margin-bottom: 50px
+  @media lapBreakpoint
+    padding: 25px 75px 25px 0
+
+  @media palmBreakpoint
+    padding: 10px
+    .combo-first, .combo-last
+      display: block
+      width: 100%
+      text-align: center
+      padding-right: 0
+    .ribbon
+      display: none
 
 .servicePage-cta-ribbon
   background-color: ribbonGrey
@@ -29,6 +41,12 @@
   text-transform: uppercase
   border-top-right-radius: 3px
   border-bottom-right-radius: 3px
+  @media palmBreakpoint
+    text-align: center
+    padding: 10px 20px
+    border-radius: 3px
+    margin-right: 0
+    margin-bottom: 15px
 
 .servicePage-cta-textTitle
   color: #313944
