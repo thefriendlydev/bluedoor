@@ -35,3 +35,4 @@ require_once 'includes/custom_fields/home.php';
 require_once 'includes/custom_fields/options.php';
 require_once 'includes/custom_fields/post_single.php';
 require_once 'includes/custom_fields/service_page.php';
+require_once 'includes/custom_fields/white_paper_page.php';

@@ -70,6 +70,7 @@
                 </div>
               </div>
             </div>
+            <?php if ( function_exists( 'floating_social_bar' ) ) floating_social_bar( array( 'facebook' => true, 'twitter' => true, 'google' => true, 'linkedin' => true, 'pinterest' => true, 'static' => true ) ); ?>
           </div>
         </div>
       </div>
