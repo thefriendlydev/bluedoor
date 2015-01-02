@@ -1,13 +1,14 @@
 .ribbon
   display: inline-block
-  color: #FFFFFF
-  padding: 10px 25px 5px
+  color: #FFF
+  padding: 7px 20px
   position: absolute
-  top: 45px
-  right: -24px
+  top: 10px
+  left: -10px
   z-index: 2
   text-shadow: 1px 1px 0 rgba(black, 0.7)
   white-space: nowrap
+  // height: 48px
   // &:before, &:after
   //   content: ''
   //   position: absolute
@@ -35,74 +36,62 @@
   &:before
     content: ''
     position: absolute
-    right: 0
+    left: 0
     top: 100%
-    border: 12px solid transparent
-    @media palmBreakpoint
-      display: none
-  @media palmBreakpoint
-    display: table
-    width: 100%
+    border: 5px solid transparent
 
-  .ribbon-label-small, .ribbon-label-amount
-    display: block
-    text-align: center
-    font-weight: 500
-    @media palmBreakpoint
-      display: table-cell
-      vertical-align: middle
-
-  .ribbon-label-small
+.ribbon--small
+  padding: 5px 10px
+  text-shadow: 2px 2px 0 rgba(black, 0.7)
+  .icon
     font-size: 14px
-    @media palmBreakpoint
-      text-align: right
-      padding-right: 3px
+  .ribbon-label
+    font-size: 16px
 
-  .ribbon-label-amount
-    font-size: 28px
-    @media palmBreakpoint
-      text-align: left
-      padding-left: 3px
+.ribbon--large
+  top: 35px
+  left: -20px
+  padding: 10px 10px 15px
+  text-shadow: 2px 2px 0 rgba(black, 0.7)
+  // &:before, &:after
+  //   border: 18px solid transparent
+  //   border-left-width: 10px
+  //   border-right-width: 10px
+  .icon
+    font-size: 32px
+    margin-right: 8px
+  .ribbon-label
+    font-size: 20px
+    font-weight: 600
+    &:before
+      border: 10px solid transparent
+  @media palmBreakpoint
+    top: 10px
+    left: -10px
+    padding: 7px 20px
+    text-shadow: 1px 1px 0 rgba(black, 0.7)
+    &:before, &:after
+      border: 10px solid transparent
+      border-left-width: 5px
+      border-right-width: 5px
+    .icon
+      font-size: 19px
+    .ribbon-label
+      font-size: 18px
+      &:before
+        border: 5px solid transparent
 
 .ribbon--primary
   background-color: ribbonGrey
-  border-top-left-radius: 5px
-  border-bottom-left-radius: 5px
-  border-top-right-radius: 5px
-  -webkit-border-top-left-radius: 5px
-  -webkit-border-bottom-left-radius: 5px
-  -webkit-border-top-right-radius: 5px
-  -moz-border-radius-top-left: 5px
-  -moz-border-radius-bottom-left: 5px
-  -moz-border-radius-top-right: 5px
-  @media palmBreakpoint
-    display: block
-    position: static
-    background-color: #FFFFFF
-    text-align: center
-    text-shadow: none
-    color: ribbonGrey
-    padding: 0
-    margin-bottom: 20px
-
+  border-top-left-radius: 3px
   // background-image: linear-gradient(lighten(ribbonGrey, 5) 0%, lighten(ribbonGrey, 5) 50%, ribbonGrey 50%, ribbonGrey 100%)
-  // &:before
-  //   border-top-color: lighten(ribbonGrey, 5)
-  //   border-left-color: lighten(ribbonGrey, 5)
-  // &:after
-  //   border-bottom-color: ribbonGrey
-  //   border-left-color: ribbonGrey
+  &:before
+    border-top-color: lighten(ribbonGrey, 5)
+    border-left-color: lighten(ribbonGrey, 5)
+  &:after
+    border-bottom-color: ribbonGrey
+    border-left-color: ribbonGrey
   .ribbon-label
     &:before
       border-top-color: ribbonGreyBg
-      border-left-color: ribbonGreyBg
-
-sup
-  font-size: 18px
-  font-family: lato
-  font-weight: 400
-  line-height: 0
-  position: relative
-  margin-right: 2px
-  vertical-align: baseline
-  top: -5px
+      border-right-color: ribbonGreyBg

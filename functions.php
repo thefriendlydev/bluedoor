@@ -34,3 +34,4 @@ function load_jquery() {
 require_once 'includes/custom_fields/home.php';
 require_once 'includes/custom_fields/options.php';
 require_once 'includes/custom_fields/post_single.php';
+require_once 'includes/custom_fields/service_page.php';
