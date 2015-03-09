@@ -1,5 +1,5 @@
 <div class="section services">
-  <div class="light-blue-cover">
+  <div class="light-blue-cover light-blue-cover--less">
     <div class="container">
       <div class="grid">
         <div class="grid__item center">
@@ -17,7 +17,11 @@
 
 
                 <div class="grid__item one-third lap--one-half palm--one-whole wow bounceInUp no-flicker" id="serviceShort<?php echo $service_counter ?>" data-wow-delay="0.1s" data-wow-duration="1.3s">
-                  <div class="service-card first">
+                  <?php if( $service_counter <= 3 ): ?>
+                    <div class="service-card">
+                  <?php else: ?>
+                    <div class="service-card service-card--spacing">
+                  <?php endif; ?>
                     <div class="hexagon">
                       <div class="iconBlock">
                         <?php if( get_sub_field('service_icon_image') ): ?>
