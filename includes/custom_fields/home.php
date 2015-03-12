@@ -555,6 +555,39 @@ if(function_exists("register_field_group"))
     'menu_order' => 9,
   ));
   register_field_group(array (
+    'id' => 'acf_display-latest-projects',
+    'title' => 'Display Latest Projects?',
+    'fields' => array (
+      array (
+        'key' => 'field_55010f91c1576',
+        'label' => 'Display Latest Projects?',
+        'name' => 'display_latest_projects',
+        'type' => 'true_false',
+        'message' => '',
+        'default_value' => 0,
+      ),
+    ),
+    'location' => array (
+      array (
+        array (
+          'param' => 'page_template',
+          'operator' => '==',
+          'value' => 'page-bluedoor.php',
+          'order_no' => 0,
+          'group_no' => 0,
+        ),
+      ),
+    ),
+    'options' => array (
+      'position' => 'acf_after_title',
+      'layout' => 'default',
+      'hide_on_screen' => array (
+        0 => 'the_content',
+      ),
+    ),
+    'menu_order' => 10,
+  ));
+  register_field_group(array (
     'id' => 'acf_clients-taglines',
     'title' => 'Clients Taglines',
     'fields' => array (
@@ -601,7 +634,7 @@ if(function_exists("register_field_group"))
         0 => 'the_content',
       ),
     ),
-    'menu_order' => 10,
+    'menu_order' => 11,
   ));
   register_field_group(array (
     'id' => 'acf_clients',
@@ -663,7 +696,7 @@ if(function_exists("register_field_group"))
         0 => 'the_content',
       ),
     ),
-    'menu_order' => 11,
+    'menu_order' => 12,
   ));
 
   register_field_group(array (
@@ -726,6 +759,6 @@ if(function_exists("register_field_group"))
         0 => 'the_content',
       ),
     ),
-    'menu_order' => 12,
+    'menu_order' => 13,
   ));
 }

@@ -23,6 +23,9 @@
 <div id="why-us">
   <?php get_template_part('partials/home/why_us'); ?>
 </div>
+<div id="latest-projects">
+  <?php get_template_part('partials/home/latest_projects'); ?>
+</div>
 <div id="clients">
   <?php get_template_part('partials/home/clients'); ?>
 </div>
