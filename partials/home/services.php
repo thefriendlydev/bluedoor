@@ -8,6 +8,7 @@
         </div>
       </div>
     </div>
+    <div id="servicesAnchor"></div>
     <div class="services-back-container hide" id="serviceBack"><div class="services-back"><i class="icon-arrow-left"></i></div></div>
     <div class="container">
       <div class="grid">

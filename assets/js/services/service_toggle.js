@@ -3,6 +3,8 @@
 $( "div[id^='serviceButton'], div[id^='serviceTitle']" ).click(function(){
   var id = $(this).attr('id').replace('serviceButton', '').replace('serviceTitle', '');
 
+  window.location.href = "#servicesAnchor"
+
   $( "div[id^='serviceShort']" )
     .removeAttr("style")
     .removeClass("wow bounceInUp")
