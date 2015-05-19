@@ -135,23 +135,27 @@ body
       .siteHeader-navTrigger
         margin-right: nav-width-narrow
 
-.siteHeader-navTrigger
-  transition: all 0.2s ease-in-out
+.siteHeader-navWrapper
   cursor: pointer
   position: fixed
   top: 29px
   right: 10px
-  z-index: 15
-  width: 48px
-  height: 42px
-  transform: translate3d(0, 0, 0)
-  background: bdBlue
   display: none
   @media palmBreakpoint
     width: 42px
     height: 38px
     top: 15px
     display: block
+
+.siteHeader-navTrigger
+  transition: all 0.2s ease-in-out
+  z-index: 15
+  width: 48px
+  height: 42px
+  transform: translate3d(0, 0, 0)
+  background: bdBlue
+  position: relative
+
 
   div
     transition: all 0.3s ease-in-out
